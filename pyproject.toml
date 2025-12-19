@@ -1,0 +1,12 @@
+[project]
+name = "mini_tracker"
+version = "0.1.0"
+description = "Paquete funcional para gestión de tiempo usando estado global"
+authors = [
+    { name="Rafa", email="tu_correo@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["mini_tracker"]
